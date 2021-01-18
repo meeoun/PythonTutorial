@@ -1,0 +1,12 @@
+1.) Mutable means the value can be changed without
+the Python engine creating a new data object.  Immutable
+means that the Python engine will create a new data object
+if the value is changed.
+
+
+
+2.) Variables are labels that "point" to the data object.
+This is important because multiple variables can point
+to the same data object, meaning changing one appears 
+to alter both. However, the data object itself was altered.
+
